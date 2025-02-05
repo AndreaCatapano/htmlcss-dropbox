@@ -23,6 +23,11 @@ a{
     color: white;
 }
 
+.mw-large-default{
+    max-width: 880px;
+    margin: 0 auto;
+}
+
 
 /* Header*/
 .header-flex {
@@ -50,8 +55,45 @@ a{
 }
 
 
+/* Footer*/
 
 footer{
     background-color: black;
-    height: 400px;
+    color: white;
+}
+
+.footer-flexbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-flexbox a{
+    color: white;
+    font-size: 13px;
+}
+
+.footer-flexbox div {
+    width: calc(20% -70px);
+}
+
+.footer-flexbox h3{
+    margin-bottom: 25px;
+}
+
+.footer-flexbox ul{
+    list-style: none;
+}
+
+.footer-flexbox li{
+    margin-bottom: 15px;
+}
+
+.menu-language hr{
+    max-width: 90px;
+}
+
+.menu-language p{
+    padding: 35px 0;
+    color: #909898;
 }
