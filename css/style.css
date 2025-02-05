@@ -107,15 +107,6 @@ h1{
 }
 
 /* Main: Business Section*/
-
-.m-defaul-flexbox{
-    margin-bottom: 20px;
-}
-
-.m-top-default{
-    margin-top: 20px;
-}
-
 .business-section h2{
     margin-top: 130px;
 }
@@ -139,17 +130,17 @@ h1{
 
 .business-offers-flexbox{
     display: flex;
-    justify-content: space-between;
-    gap: 35px;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .offer-card{
-    width: calc(33.333% -35px);
+    max-width: calc(33.33% - 20px);
     display: flex;
     flex-direction: column;
 
     border: 1px solid gray;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .center-flex-item{
@@ -158,22 +149,45 @@ h1{
 }
 
 .business-flex-item{
-    padding: 35px 20px;
+    padding: 0 15px;
+    margin-bottom: 20px ;
 }
 
 
 .business-flex-item .flex-text {
     display: flex;
-    align-items: center;
+    align-items: start;
+    font-size: 14px;
+}
+
+.business-flex-item .button-default{
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    padding: 8px 30px;
 }
 
 .business-flex-item i {
     margin-right: 5px;
+    padding-top: 2px;
 }
 
 .hr-default{
     max-width: 35px;
     color: #E0DFE3;
+}
+
+.gray-text{
+    color: gray;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.link-for-shop{
+    color: blue;
+    text-decoration: underline;
 }
 
 /* Footer*/
