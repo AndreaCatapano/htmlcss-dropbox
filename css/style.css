@@ -53,12 +53,52 @@ a{
 .header-links{
     color: #333;
     padding: 20px 0;
+    border-bottom: 1px solid transparent
 }
 
 .links-border:hover{
     border-bottom: 1px solid black;
 }
 
+/* Main*/
+
+
+/* Main: Jumbo*/
+
+
+.jumbotron-container{
+    background-color: #B4D0E6;
+}
+
+h1{
+    font-size: 64px;
+    padding-top: 70px;
+}
+
+.jumbotron-container > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+    position: relative;
+    top: 70px;
+}
+
+.jumbo-flex-item-l p{
+    margin-bottom: 25px;
+}
+
+.jumbo-m-default {
+    margin-top: 25px;
+}
+
+.jumbo-flex-item-r img{
+    max-width: 145%;
+}
+
+strong{
+    font-size: 48px;
+}
 
 /* Footer*/
 
