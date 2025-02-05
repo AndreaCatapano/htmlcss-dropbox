@@ -30,6 +30,10 @@ a{
 
 
 /* Header*/
+.header-margin-r{
+    margin-right: 30px;
+}
+
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -37,7 +41,7 @@ a{
 
     position: sticky;
     top: 0;
-    padding: 20px 15px;
+    padding: 0 15px;
 }
 
 .header-flex nav {
@@ -45,9 +49,10 @@ a{
     align-items: center;
 }
 
+
 .header-links{
     color: #333;
-    margin-right: 30px;
+    padding: 20px 0;
 }
 
 .links-border:hover{
