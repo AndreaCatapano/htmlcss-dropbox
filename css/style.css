@@ -130,15 +130,15 @@ h1{
 
 .business-offers-flexbox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
     gap: 20px;
 }
 
-.offer-card{
+.offer-card {
     max-width: calc(33.33% - 20px);
     display: flex;
     flex-direction: column;
-
     border: 1px solid gray;
     margin-top: 30px;
 }
@@ -148,21 +148,28 @@ h1{
     padding: 10px 0;
 }
 
-.business-flex-item{
+.business-flex-item {
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 0 15px;
-    margin-bottom: 20px ;
+    margin-bottom: 30px;
+}
+
+.mp-flexitem-default{
+    margin: 15px 0;
 }
 
 
 .business-flex-item .flex-text {
     display: flex;
     align-items: start;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .business-flex-item .button-default{
-    display: inline-block;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     padding: 8px 30px;
 }
@@ -178,7 +185,7 @@ h1{
 }
 
 .gray-text{
-    color: gray;
+    color: #CFD8EB;
 }
 
 .text-blue{
