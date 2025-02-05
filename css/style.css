@@ -6,8 +6,52 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 100%;
-    display: block;
+
+/* General*/
+
+body{
+    font-family: "Open Sans", open-sans;
 }
 
+a{
+    text-decoration: none;
+}
+
+.button-default{
+    background-color:#0061FE;
+    padding: 8px 20px;
+    color: white;
+}
+
+
+/* Header*/
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    padding: 20px 15px;
+}
+
+.header-flex nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-links{
+    color: #333;
+    margin-right: 30px;
+}
+
+.links-border:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 400px;
+}
