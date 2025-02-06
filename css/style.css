@@ -90,7 +90,6 @@ h1 {
 .jumbotron-container>div {
     display: flex;
     justify-content: space-between;
-    align-items: top;
 
     position: relative;
     top: 70px;
