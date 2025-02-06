@@ -35,7 +35,7 @@ a {
 
 
 .mw-default {
-    max-width: 720px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ h1 {
 }
 
 .jumbo-flex-item-r img {
-    max-width: 100%;
+    max-width: 140%;
 }
 
 /* Main: Business Section*/
@@ -163,27 +163,35 @@ h1 {
 }
 
 .business-flex-item {
-    min-height: 130px;
+    min-height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     padding: 0 15px;
-    margin-bottom: 30px;
+}
+
+ .sb{
+    justify-content: space-around;
 }
 
 .mp-flexitem-default {
-    margin: 15px 0;
+    margin: 10px 0;
+}
+
+
+.business-flex-item ul{
+    list-style: none;
 }
 
 
 .business-flex-item .flex-text {
+    min-height: 25px;
     display: flex;
     align-items: start;
     font-size: 12px;
 }
 
 .business-flex-item .button-default {
-    font-size: 11px;
+    font-size: 10px;
     text-align: center;
     padding: 8px 30px;
 }
